@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    background-image: url("6965.jpg")
+}
+
+.error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error h1 {
+    font-size: 3rem;
+}
+
+h1 {
+    text-align: center;
+    padding: 50px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #249f49;
+}
+
+.container {
+    text-align: center;
+}
+
+.about-container,
+.contact-container {
+    width: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-container label,
+.contact-container input {
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
+.contact-container input[type="text"],
+.contact-container textarea {
+    padding: 10px 10px;
+    width: 100%;
+}
+
+.contact-container textarea {
+    margin: 15px 0;
+}
+
+.contact-container input[type="submit"] {
+    margin: 15px 0;
+    padding: 10px 15px;
+    background-color: transparent;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 1s ease;
+    font-size: 1.2rem;
+}
+
+.contact-container input[type="submit"]:hover {
+    background-color: #249f49;
+}
+
+.about-title {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2rem;
+    letter-spacing: 0.2em;
+}
+
+.return {
+    margin: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
